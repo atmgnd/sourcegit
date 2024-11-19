@@ -2245,7 +2245,7 @@ namespace SourceGit.ViewModels
         private List<Models.Submodule> _submodules = new List<Models.Submodule>();
         private List<Models.Submodule> _visibleSubmodules = new List<Models.Submodule>();
 
-        private bool _includeUntracked = true;
+        private bool _includeUntracked = false;
         private Models.Commit _searchResultSelectedCommit = null;
         private Timer _autoFetchTimer = null;
         private DateTime _lastFetchTime = DateTime.MinValue;
